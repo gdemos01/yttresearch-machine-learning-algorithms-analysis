@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Evaluation</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+	<form action="results.php" method="GET">
+	
+		<div class="container">
+			<div class="col-md-4">
+				<div class = "title">
+					Select Training Window
+				</div>
+
+				<select class="form-control" name="t">
+				  <option>1</option>
+				  <option>2</option>
+				  <option>3</option>
+				  <option>7</option>
+				</select>				
+			</div>
+
+			<div class="col-md-4">
+				<div class = "title">
+					Select Offset
+				</div>
+
+				<select class="form-control" name="o">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select>
+			</div>
+
+			<div class="col-md-4">
+				<div class = "title">
+					Select Labeling Window
+				</div>
+
+				<select class="form-control" name="l">
+				  <option>1</option>
+				  <option>2</option>
+				  <option>3</option>
+				  <option>7</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="col-md-4">
+				<div class = "title">
+					Select Classification Algorithm
+				</div>
+
+				<select class="form-control" name="classifier">
+				  <option>LogisticRegression</option>
+				  <option>SVM - LinearSVC</option>
+				  <option>K Nearest Neighbours</option>
+				  <option>Decision Tree</option>
+				  <option>Random Forest</option>
+				  <option>Extra Trees</option>
+				  <option>Bagging Decision Tree</option>
+				  <option>Gradient Boosting Decision Tree</option>
+				  <option>AdaBoost Decision Tree</option>
+				  <option>Voting - AdaBoostGradientBoosting DT</option>
+				  <option>Voting - ABGBLR</option>
+				  <option>BaggingGBDT</option>
+				</select>
+			</div>
+
+			<div class="col-md-4">
+
+				<div class = "title">
+					Evaluate
+				</div>
+
+				<input class="btn btn-default" type="submit" value="View results">
+			</div>
+		</div>
+
+	</form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+.title{
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+.myBut{
+	margin-top: 2em;
+}
+
+.myImg{
+	width: 95%;
+	height: 95%;
+}
+
+.wrapper{
+	margin-top: 3em;
+	text-align: center;
+}
+
+.myPre{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.box{
+	padding: 1.5em;
+	background-color: #EEEEEE;
+}
+
+.myQuote{
+	padding: 2em;
+	color: #888888;
+	line-height: 1.5em;
+	font-style: italic;
+}
+
+.floatingText{
+	float: left;
+}
+
+.clf2{
+	background-color: #C6F69E;
+}
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FeatureManager.iml" filepath="$PROJECT_DIR$/.idea/modules/FeatureManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FeatureManager_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FeatureManager_main.iml" group="FeatureManager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FeatureManager_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FeatureManager_test.iml" group="FeatureManager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main/main_main.iml" filepath="$PROJECT_DIR$/.idea/modules/main/main_main.iml" group="main" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main/main_test.iml" filepath="$PROJECT_DIR$/.idea/modules/main/main_test.iml" group="main" />
+    </modules>
+  </component>
+</project>
