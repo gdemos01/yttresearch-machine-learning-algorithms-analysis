@@ -1,10 +1,10 @@
-Machine Learning Algorithms Experimentation for Popularity and Virality Predictions 
+Prediction of Virality and Popularity of YouTube Videos ~ Machine Learning Algorithms Analysis
 ====================
 
-## Research Interface
+## Machine Learning
 
 ```bash
-The "Research Interface" contains the final source code of our research
+The Machine Learning directory contains the final source code of our research
 regarding Machine Learning Algorithms along with a simple User Interface
 to allow experimentation with a variety of algorithms.
 ```
@@ -23,6 +23,8 @@ It produces the appropriate output according to the following input:
   * Offset
   * Labeling Window
   * Labeling Percentage
+  * Youtube binary
+  * Twitter Binary
 ```
 ## Doc
 
